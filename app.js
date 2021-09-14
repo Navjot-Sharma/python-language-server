@@ -1,3 +1,3 @@
-exports.lambdaHandler = (event, callback) => {
+exports.handler = (event, context) => {
   console.log(event);
 };
